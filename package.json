@@ -1,7 +1,7 @@
 {
   "name": "ch-coder-react-ui",
   "private": false,
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -13,12 +13,14 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
-    "ch-coder-react-ui": "^0.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "styled-components": "^6.0.7"
   },
   "peerDependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "styled-components": "^6.0.7"
   },
   "devDependencies": {
     "@storybook/addon-essentials": "^7.2.3",
@@ -46,6 +48,7 @@
     "storybook": "^7.2.3",
     "ts-jest": "29.1.1",
     "typescript": "^5.0.2",
-    "vite": "^4.4.5"
+    "vite": "^4.4.5",
+    "vite-plugin-dts": "3.5.2"
   }
 }
