@@ -14,8 +14,7 @@ export default defineConfig({
   build: {
     lib: {
       entry: resolve(__dirname, "src/main.ts"),
-      name: "ch-coder-react-ui",
-      formats: ["es", "umd"],
+      formats: ["es"],
     },
     rollupOptions: {
       external: ["react", "react-dom", "styled-components"],

@@ -1,8 +1,9 @@
 {
   "name": "ch-coder-react-ui",
   "private": false,
-  "version": "0.0.5",
+  "version": "0.0.6",
   "type": "module",
+  "main": "dist/ch-coder-react-ui.js",
   "types": "dist/main.d.ts",
   "files": [
     "dist"
